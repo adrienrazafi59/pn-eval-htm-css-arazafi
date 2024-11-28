@@ -2,4 +2,101 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+    font-family: "FontILike", serif;
 }
+
+@font-face {
+    font-family: "FontILike";
+    src: url("./eval1.otf");
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    font-size: 2vh;
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    
+}
+
+#imgOne{
+    background-image: url("../asset/images/groupPn.webp");
+    width: 18vw;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+#imgTwo{
+    background-image: url("../asset/images/groupPn2.webp");
+    width: 18vw;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5vw;
+    margin-top: 10vh;    
+}
+
+#logoPN{
+    background-image: url("../asset/images/logoPN.png");
+    width: 15vw;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#flexContainer {
+    display: flex;
+}
+
+#divSIDE{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: gold;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 1vh;
+}
+
+#divBODY {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5vw;
+    width: 80vw;
+}
+
+.alignHorizontally{
+    display: flex;
+    flex-direction: row;
+}
+
+.textContainer{
+    border: #000000c5 solid 2px;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    width: 50vw;
+    margin: 5vh;
+}
+
+.textContainer p{
+    font-size: 2vh;
+}
+
+.textContainer p{
+    margin: 2vh;
+}
+
+
+.navButton:hover {
+    border: gold solid 1px;
+    background-color: rgb(12, 12, 12);
+}
+
+
