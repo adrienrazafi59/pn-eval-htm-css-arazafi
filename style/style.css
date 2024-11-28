@@ -63,6 +63,8 @@ h1{
     justify-content: space-evenly;
     height: 100vh;
     padding: 1vh;
+    position: fixed;
+    z-index: 10;
 }
 
 #divBODY {
@@ -71,6 +73,7 @@ h1{
     justify-content: space-evenly;
     padding: 5vw;
     width: 80vw;
+    margin-left: 18vw;
 }
 
 .alignHorizontally{
